@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    background-color: black;
+    height: 10vh;
+}
+nav{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+   
+}
+ul{
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}li{
+    list-style: none;
+    color: white;
+}
+button{
+    background-color: rgb(194, 32, 194);
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+}
+main{
+    background-image: url(./assest/bg.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 600px;
+    height: 100vh;
+    width: 100vw;
+   
+    
+}
+.heading{
+    padding-top: 8%;
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+    font-size: 20px;
+    color: white;
+}
+.para{
+    padding-top: 3px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    width: 40%; margin-left: 30%;
+}
+.b1{
+    padding-top: 20px;
+    text-align: center;
+    width: 40%; margin-left: 30%;
+}
